@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Home Page paragraphs layout */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.content p {
+  flex: 1 1 45%;
+}
+
+/* About Page blocks layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.block {
+  width: 250px;
+}
+
+/* Responsive layout for <=800px */
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+  .content p {
+    width: 100%;
+  }
+  .block {
+    width: 100%;
+  }
+}
+
+/* Footer (required element, no extra styling) */
+footer {
+  text-align: center;
+}
