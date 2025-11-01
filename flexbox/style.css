@@ -28,8 +28,6 @@
 .block {
   width: 250px;
   border: 1px solid black;
-  max-height: 20%;
-
 }
 
 @media (max-width: 800px) {
@@ -44,9 +42,11 @@
     height: 25%;
   }
 }
+
 footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
   text-align: center;
 }
+
