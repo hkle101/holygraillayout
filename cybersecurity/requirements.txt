@@ -1,0 +1,15 @@
+-Statement where requirements is used
+requirements:
+Here are the concepts you MUST include in your project:
+
+- create effective wireframes
+
+- create a basic web page
+
+- use positioning techniques
+
+- apply media queries
+
+- establish an independent flow using Flexbox
+
+- make the page look good with images, font and colours (Adobe Colour Wheel)
