@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendlyGrid</title>
+    <style>
+        .friendlyGrid{
+          display: grid;
+          height: 100vh;
+          width: 100%;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(8, 1fr);
+          background-color: black;
+          grid-gap: 2px;
+          align-items: stretch;
+          justify-items: stretch;
+          align-content: start;
+          justify-content: end;
+        }
+        header{
+          background-color: yellow;
+          grid-column: 1/5;;
+          grid-row: 1/2; 
+          align-content: center;
+        }
+        nav{
+          background-color: green;
+          grid-column: 1/5;
+          grid-row: 2/3;
+          align-content: center;
+          text-align: center;
+        }
+        article{
+          background-color: cyan;
+          grid-column: 1/3;
+          grid-row: 3/8;
+        }
+        aside{
+          background-color: cyan;
+          grid-column: 3/5;
+          grid-row: 3/8;
+        }
+        footer{
+          background-color: yellow;
+          grid-column: 1/5;
+          grid-row: 8/9;
+          align-content: center;
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="friendlyGrid">
+        <header>
+            <h1 style="margin: 0; text-align: center;">Friends</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="https://www.imdb.com/title/tt0108778/" target="_blank">About</a>
+        </nav>
+        <article>
+            <h2>About the Show</h2>
+            <p>
+                <strong>Friends</strong> is an iconic American sitcom that follows the lives of six close friends —
+                Ross, Rachel, Monica, Chandler, Joey, and Phoebe — as they navigate adulthood,
+                relationships, careers, and everyday life in New York City.
+            </p>
+            <p>
+                The show is beloved for its humor, memorable catchphrases, and strong
+                character chemistry. Whether it’s Ross yelling “We were on a break!” or Joey asking,
+                “How you doin’?,” Friends delivers both comedy and heartfelt moments.
+            </p>
+        </article>
+        <aside>
+            <h2>Fun Facts</h2>
+            <ul>
+                <li>Friends premiered in 1994 and ran for 10 seasons.</li>
+                <li>Central Perk became one of TV’s most iconic coffee shops.</li>
+                <li>Phoebe’s song “Smelly Cat” is still a fan favorite.</li>
+                <li>The cast negotiated equal pay starting in season 3.</li>
+            </ul>
+        </aside>
+        <footer>Heh Kle @ 2025</footer>
+    </div>
+</body>
+</html>
